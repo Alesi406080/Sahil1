@@ -130,7 +130,7 @@ def login():
 		toket = open('login.txt','r')
 		menu() 
 	except (KeyError,IOError):		
-os.system('clear')
+                os.system('clear')
 		print logo
 		jalan(' \033[1;92mWarning: \033[1;96mDo Not Use Your Personal Account' )
 		jalan(' \033[1;92m   Note: \033[1;96mUse a New Account Tvp Login')
