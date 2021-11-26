@@ -127,7 +127,7 @@ while (loop == 'true'):
 def login():
 	os.system('clear')
 	try:
-		toket = open('login.txt','r')0
+		toket = open('login.txt','r')
 		menu() 
 	except (KeyError,IOError):
 !p		os.system('clear')
